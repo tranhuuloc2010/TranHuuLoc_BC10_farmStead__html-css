@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="THL">
+    <meta name="description" content="corp">
+    <link rel="shortcut icon" href="#">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font anwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <!-- <link rel="stylesheet" href="./assets/css/grid.css"> -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+
+    <title>Farmstead</title>
+</head>
+
+<body>
+    <header id="header" class="container-fluid">
+        <div class="header container">
+            <div class="row">
+                <div class="col-12 header__container">
+                    <div class="navbar__logo navbar__left-container">
+                        <div class="navbar__logo-container">
+                            <a id="navbar__logo" class="navbar-brand" href="#">Farmstead
+                                <i class="fas fa-leaf"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="navbar__right-container">
+                        <div class="navbar__right ">
+                            <div class="search-right navbar__right-item">
+                                <form action="" method="GET" id="search-right">
+                                    <input type="search" name="s" placeholder="">
+                                </form>
+                            </div>
+                            <div class="navbar__right-themes navbar__right-item">
+                                <nav class="navigation">
+                                    <div class="theme-switch-wrapper">
+                                        <label class="theme-switch" for="nightmode">
+                                            <input type="checkbox" id="nightmode">
+                                            <div id="mode__themes" class="mode-container">
+                                                <i class="far fa-sun"></i>
+                                                <i class="far fa-moon"></i>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="dropdown navbar__right-item">
+                                <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i id="menu__button" class="fas fa-bars"></i>
+                                </button>
+                                <div class="dropdown-menu" dropupAuto : false aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item active" href="#">HOME</a>
+                                    <a class="dropdown-item" href="#">ABOUT</a>
+                                    <a class="dropdown-item" href="#">SERVICES</a>
+                                    <a class="dropdown-item" href="#">PLOG POST</a>
+                                    <a class="dropdown-item" href="#">LADNING PAGE</a>
+                                    <a class="dropdown-item" href="#">ELEMENT PAGE</a>
+                                    <a class="dropdown-item" href="#">404 PAGE</a>
+                                    <a class="dropdown-item" href="#">CONTACT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="carousel__slider container-fluid">
+        <div class="row no-gutters d-flex align-items-center clearfix">
+            <div class="col-lg-5 banner w-100 ">
+                <div class="left__banner">
+                    <div class="banner__container ">
+                        <h1>Farm</h1>
+                        <div class="banner-content">
+                            <h2>Welcome to Farmstead <br>
+                                where Natural Food is born!</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium.</p>
+                            <button><a href="">LEARN MORE</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 right__carousel">
+                <div class="right__carousel-content">
+                    <div id="carousel-content" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#carousel-content" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-content" data-slide-to="1"></li>
+                            <li data-target="#carousel-content" data-slide-to="2"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img-1">
+                                    <div class="slide-num">
+                                        <h4>01<span>/03</span></h4>
+                                        <p>
+                                            Agriculture </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img-2">
+                                    <div class="slide-num">
+                                        <h4>02<span>/03</span></h4>
+                                        <p>
+                                            Agriculture </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img-3">
+                                    <div class="slide-num">
+                                        <h4>03<span>/03</span></h4>
+                                        <p>
+                                            Agriculture </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section></section>
+    <section class="service">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 service__container-left align-items-center">
+                    <h5 class="service-tittle-h5">Grow Naturally
+                    </h5>
+                    <h3 class="service-tittle-h3">Leaders in the field
+                    </h3>
+                    <p class="service-tittle-h3">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi
+                        ac sed, lacinia est.
+                        Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet
+                        elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.
+                    </p>
+                    <button><a href="">DISCOVER MORE</a></button>
+                </div>
+                <div class="col-lg-6 service__container-right center">
+                    <div class="row align-items-center">
+                        <div class="col-6 item-1 item align-items-center">
+                            <div class="right-content box-item ">
+                                <div class="icon">
+                                    <img src="./assets/img/img2.png" alt="" class="img-fluid">
+                                    <h4><a href="about" class="title-head">Natural Products</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 align-items-center item item-2 ">
+                            <div class="right-content box-item ">
+                                <img src="./assets/img/img1.png" alt="" class="img-fluid">
+                                <h4><a href="about" class="title-head">Natural Products</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 align-items-center item item-3 ">
+                            <div class="right-content box-item ">
+                                <img src="./assets/img/img3.png" alt="" class="img-fluid">
+                                <h4><a href="about" class="title-head">Natural Products</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-6 align-items-center item item-4">
+                            <div class="right-content box-item ">
+                                <img src="./assets/img/img4.png" alt="" class="img-fluid">
+                                <h4><a href="about" class="title-head">Natural Products</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid service__we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5 class="we-do-title text-white">What we do</h5>
+                        <h3 class="we-do-title-style text-white">
+                            Why Choose Our Fresh Organic Foods</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="lead text-white">
+                            Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque,
+                            eaque ipsa quae ab illo inventore.Sed ut perspiciatis unde omnis iste natus error sit.
+                        </p>
+                    </div>
+                    <h4 class="title-bg-content">Services</h4>
+                </div>
+
+                <div class="row justify-content-center service-card">
+                    <div class="col-lg-4 item">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative border-0">
+                                <a href="services.html">
+                                    <img class="d-block img-responsive w-100" src="./assets/img/service1.jpg"
+                                        alt="card-image">
+                                </a>
+                            </div>
+                            <div class="card-body service-details">
+                                <span class="label-style">Natural</span>
+                                <a href="services.html" class="service-heading">Agriculture Products</a>
+                                <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque
+                                    laudantium, totam rem aperiam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative border-0">
+                                <a href="./services.html">
+                                    <img class="d-block img-responsive w-100" src="./assets/img/service2.jpg"
+                                        alt="card-image">
+                                </a>
+                            </div>
+                            <div class="card-body service-details">
+                                <span class="label-style">Agriculture</span>
+                                <a href="services.html" class="service-heading">Fresh Vegetables</a>
+                                <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque
+                                    laudantium, totam rem aperiam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative border-0">
+                                <a href="services.html">
+                                    <img class="d-block img-responsive w-100" src="./assets/img/service3.jpg"
+                                        alt="card-image">
+                                </a>
+                            </div>
+                            <div class="card-body service-details">
+                                <span class="label-style">Farm</span>
+                                <a href="services.html" class="service-heading">Oragnic Products</a>
+                                <p>Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque
+                                    laudantium, totam rem aperiam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="service-block-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 about-right-faq align-self">
+                    <h5 class="small-title">Why choose us</h5>
+                    <h3 class="title-style">Quality food is the most important thing in our life</h3>
+                    <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                        ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Non quae, fugiat.</p>
+                    <div class="row two-grids mt-sm-5 mt-4 pt-lg-4">
+                        <div class="col-sm-6 grids_info d-flex">
+                            <span class="fa fa-users"></span>
+                            <div class="detail ml-2">
+                                <h4>Qualified Staff</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                            <span class="fa fa-life-ring"></span>
+                            <div class="detail ml-2">
+                                <h4>Excellent Service</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 offset-md-2 left-wthree-img mt-lg-0 mt-sm-5 mt-4 position-relative">
+                    <img src="./assets/img/image.jpg" alt="" class="img-fluid radius-image">
+                    <div class="imginfo__box">
+                        <h6 class="imginfo__title">36+</h6>
+                        <p>Years of experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-block-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img5.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Agriculture</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img6.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Fresh</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img7.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Natural</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img8.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Farm</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img9.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Organic</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 service-2-col-text">
+                    <a href="#blog" class="d-flex service-2-unit">
+                        <div class="col-3">
+                            <div class="service-2-info">
+                                <img class="img-fluid" src="./assets/img/img10.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="service-2-para">
+                                <h4>Dairy</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container py-md-5 py-4">
+            <div class="row gallery_grids no-gutters">
+                <div class="col-lg-3 col-6 gallery-img-grid gallery_grid1 hover14 column">
+                    <div class="gallery_effect mt-sm-2">
+                        <h5 class="small-title">Gallery</h5>
+                        <h3 class="title-style title">Our Products</h3>
+                        <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
+                        <button href="#url" class="btn-discover">Discover More</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g2.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g2.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Fresh Carrots</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g3.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g3.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Strawberry</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g6.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g6.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Our Farm</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g5.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g5.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Fresh Apples</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g1.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g1.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Awesome Fields</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g7.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g7.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Fresh Grapes</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                    <div class="gallery_effect">
+                        <a href="./assets/img/g8.jpg" class="js-img-viwer d-block">
+                            <figure>
+                                <img src="./assets/img/g8.jpg" alt=" " class="img-fluid" />
+                                <h5 class="gall-text">Hot Pepper</h5>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="container-fluid gallery">
+        <div class="customer-feedback">
+            <div class="container">
+                <div id="feedbackSlider" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#feedbackSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#feedbackSlider" data-slide-to="1"></li>
+                        <li data-target="#feedbackSlider" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="./assets/img/testi1.jpg" alt=""
+                                                    class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>Dennis wilson</h3>
+                                                <p class="identity">Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="./assets/img/testi2.jpg" alt=""
+                                                    class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>Dennis wilson</h3>
+                                                <p class="identity">Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="./assets/img/testi3.jpg" alt=""
+                                                    class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>Dennis wilson</h3>
+                                                <p class="identity">Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer py-5">
+            <div class="container py-4">
+                <div class="row footer-p">
+                    <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
+                        <h4>
+                            <a class="logo" href="index.html">Farmstead<i class="fa fa-leaf" aria-hidden="true"></i></a>
+                        </h4>
+                        <p class="mt-4">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam
+                            eget turpis ornare, euismod ligul aeget, enenatis dui. </p>
+
+                        <p class="copy-text mt-5">@ 2021 Farmstead. All rights reserved. Design by <a
+                                href="https://w3layouts.com/" target="_blank">
+                                W3Layouts</a>
+                        </p>
+                    </div>
+                    <div class=" find-us  col-lg-4 pl-lg-5">
+                        <h3>Find Us</h3>
+                        <div class="column-2">
+                            <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+                            <p class="mt-3">Phone: <a href="tel:+12 23456790">+ 12 234 56790</a></p>
+                            <p class="mt-3"> Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                            <p class="mt-3">Fax: <a href="tel:+12 23456790">+ 11 367 21890</a></p>
+                        </div>
+                    </div>
+                    <div class=" newsletter col-lg-4 col-md-7 order-lg-3 order-1 column mt-lg-0 mt-5">
+                        <h3>Newsletter</h3>
+                        <div class="end-column">
+                            <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                            <form action="#" class="subscribe d-flex mt-3" method="post">
+                                <input type="email" name="email" placeholder="Email Address" required="">
+                                <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                            </form>
+                        </div>
+                        <ul class="social mt-4 pt-2">
+                            <li><a href="#facebook"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></span></a>
+                            </li>
+                            <li><a href="#twitter"><i class="fab fa-twitter"></i></span></a>
+                            </li>
+                            <li><a href="#google"><i class="fab fa-google"></i></a>
+                            </li>
+                            <li><a href="#github"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <i class="fa fa-level-up-alt"></i>
+    </button>
+
+</body>
+
+<!-- bootstrap4 -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+<!-- js link -->
+<script src="./assets/js/main.js"></script>
+
+</html>

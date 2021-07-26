@@ -1,0 +1,62 @@
+
+
+@media (min-width: 1440px){
+   /*  */
+}
+
+@media (max-width: 1150px){
+    .left__banner{
+        left: 6rem;
+    }
+}
+@media (max-width: 991px){
+    .left__banner{
+        font-size: 1.2rem;
+        width: auto;
+        position: absolute;
+        z-index: 1;    
+        left: 0;
+        padding: 8rem;    
+        background-color: white;
+        border-radius: 2rem;
+    }
+    .banner__container h1{
+        line-height: 3rem;
+        font-size: 10rem;
+    }
+    .banner-content h2 {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .service-card .item{
+        margin: 2rem !important;
+    }
+}
+@media (max-width: 768px){
+    .left__banner{
+        position: absolute;
+        width: auto;
+        top: 33rem;
+        z-index: 1;
+        padding: 6rem;
+    }
+    .banner-left-content{
+        background-color: white;
+    }
+    .banner__container h1{
+        line-height: 2rem;
+        font-size: 6rem;
+        margin-left: -3rem;
+    }
+    .banner-content h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .banner-content p {
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+    .service-card .item{
+        margin: 2rem 0 !important;
+    }
+}
